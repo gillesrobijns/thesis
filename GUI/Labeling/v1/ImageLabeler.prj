@@ -1,0 +1,61 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1826910979" file="/Users/gillesrobijns/Documents/KU Leuven/Thesis/ImageLabeler.prj" location="/Users/gillesrobijns/Documents/KU Leuven/Thesis" name="ImageLabeler" target="target.mlapps" target-name="Package App">
+    <param.appname>ImageLabeler</param.appname>
+    <param.authnamewatermark>Gilles Robijns</param.authnamewatermark>
+    <param.email>gillesrobijns@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>This app labels the imported images with 'True' or 'False'. The output is an excel sheet with all images and corresponding ground truth.</param.summary>
+    <param.description />
+    <param.screenshot>/private/var/folders/rl/jmtg6zbn1js08dnw4nryll000000gn/T/tpe3a49c8c_3ff1_437b_aa1e_8e05c6d1db30.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/gillesrobijns/Documents/KU Leuven/Thesis</param.output>
+    <param.guid>18e72dfa-b804-4f89-83fc-c3e21124f618</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/Thesis.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/gillesrobijns/Documents/KU Leuven" name="Thesis" optional="false">/Users/gillesrobijns/Documents/KU Leuven/Thesis</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2017b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.13</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
